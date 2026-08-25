@@ -48,9 +48,9 @@ The project demonstrates an **event-driven backend architecture** while keeping 
                                  │
                                  ▼
               ┌──────────────────────────────────┐
-              │          Apache Kafka             │
+              │          Apache Kafka            │
               │                                  │
-              │      Topic: vehicle-location     │
+              │  Topic: vehicle-location-topic   │
               └────────────────┬─────────────────┘
                                │
                                ▼
