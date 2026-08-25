@@ -189,7 +189,7 @@ Provide database access through Spring Data JPA.
 
 ---
 
-# 🗄️ Database — PostgreSQL
+#  Database — PostgreSQL
 
 The application uses **PostgreSQL** for persistent storage and **Spring Data JPA + Hibernate** for object-relational mapping.
 
@@ -227,7 +227,7 @@ Replace `your_username` and `your_password` with your PostgreSQL credentials.
 
 ---
 
-## 🧩 Database Architecture
+##  Database Architecture
 
 The application maintains a relationship between vehicles and their historical locations.
 
@@ -610,7 +610,7 @@ Email Notification
 
 ---
 
-# 🧪 Example Scenario
+#  Example Scenario
 
 Assume the system has three vehicles:
 
@@ -667,7 +667,7 @@ This project demonstrates practical implementation of:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Possible future enhancements include:
 
