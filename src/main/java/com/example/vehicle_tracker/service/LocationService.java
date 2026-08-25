@@ -19,4 +19,9 @@ public class LocationService {
     public Location getLocationByVehicle(long id) {
         return locationRepository.findTopByVehicleIdOrderByTimeStampDesc(id);
     }
+
+    public void processLocation(Location location) {
+        System.out.println("INCOMING UPS DATA:");
+        locationRepository.save(location);
+    }
 }
